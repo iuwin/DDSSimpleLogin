@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; 
+    background-color: #f4f4f4;
+
+}
+
+.register {
+    color: gray;
+    text-align: center;
+    margin: 20px 40px 20px 0;
+}
+
+.register a {
+    font-size: 30px;C:\Flutter\flutter\bin
+    color: #6666FF;
+    text-decoration: none;
+    float:left;
+    margin-left: 40px;
+}
+
+.register a:hover{
+    color: #0033CC;
+}
+
+form {
+    width: 400px;
+    height: 450px;
+    margin: 50px auto auto auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 6px 3px lightgrey;
+
+}
+
+input {
+    width: 310px;
+    height: 35px;
+    margin: 10px 0 10px 35px;
+    padding: 10px 10px 0 0;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid grey;
+ 
+
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+button {
+    font-size: 16px;
+    color: white;
+    background-color: #6666FF;
+    margin: 25px 0 0 44px;
+    width: 300px;
+    height: 45px;
+    /*padding: 11px 40px 11px 40px;*/
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(130, 130, 240);
+}
+
+.sign-up {
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sign-up a {
+    color: #6666FF;
+    text-decoration: none;
+    margin: 0 10px 0 5px;
+}
+
+.sign-up a:hover{
+    color: #0033CC;
+}
+
+.error {
+    font-size: 16px;
+    text-align: center;
+    color: #A94442;
+    padding: 8px;
+    margin: 15px 0 0 35px;
+    border-radius: 5px;
+    width: 300px;
+}
